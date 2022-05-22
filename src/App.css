@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.test-app {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-20%, -50%);
+  width: 30%;
+  min-width: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.test-app-title {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 20px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.test-app-qq {
+  margin-right: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.test-app-input {
+  border: none;
+  border-bottom: 1px solid rgba(13, 10, 10, 0.8);
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.test-app-number {
+  width: 60%;
+  background: rgba(236, 238, 241, .67);
+  border-radius: 20px;
+  margin-top: 20px;
+  min-height: 100px;
+}
+
+.test-app-left {
+  position: relative;
+  float: left;
+  width: 30%;
+}
+
+.test-app-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 15px;
+
+}
+
+.test-app-right {
+  position: relative;
+  float: right;
+  width: 60%;
+  text-align: left;
+  margin-top: 26px;
+  margin-left: 10%;
+}
+
+.test-app-right-number {
+  color: #958C8C;
+  margin-top: 6px;
 }
