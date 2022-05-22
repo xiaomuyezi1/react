@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import * as ReactDOM from 'react-dom';
 import Msg from './Msg';
 import { MessageApi, List } from './config';
-import './index.less';
+import './msgFun.less';
 
 let add: (L: List) => void;
 export const MessageContainer = () => {
@@ -17,7 +17,7 @@ export const MessageContainer = () => {
             const obj = [...pre, option];
             setTimeout(() => {
                 remove(option)
-            }, 3000)
+            }, 500)
             return obj
         })
     }
