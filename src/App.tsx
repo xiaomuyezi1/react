@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './App.less';
 import axios from "axios";
 import Message from './MsgFun';
 import useDebounce from './useDebounce';
